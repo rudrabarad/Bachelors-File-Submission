@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation</title>
+	<script>
+function check()                                    
+{ 
+    var name = document.forms["RegForm"]["Name"];               
+    var email = document.forms["RegForm"]["EMail"];    
+    var phone = document.forms["RegForm"]["Telephone"];  
+    var what =  document.forms["RegForm"]["Subject"];  
+    var password = document.forms["RegForm"]["Password"];
+    var cpassword = document.forms["RegForm"]["Confirm_Password"];  
+    var address = document.forms["RegForm"]["Address"];  
+    var regex = /^[a-zA-Z]+$/;
+    var reg = /^([0-9]{10})+$/;
+    var ck_password = /^([a-zA-Z0-9]{6,12})+$/;
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+
+    if(regex.test(name.value) == false){
+	alert("Name must be in letters only");
+	name.focus();
+	return false;
+    }
+
+    if (address.value == "")                               
+    { 
+        window.alert("Please enter your address."); 
+        name.focus(); 
+        return false; 
+    } 
+
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+
+
+    if (password.value == "")                        
+    { 
+        window.alert("Please enter your password"); 
+        password.focus(); 
+        return false; 
+    } 
+
+	if (ck_password.test(password.value) == false) {
+	window.alert("You must enter a valid Password ");
+	password.focus(); 
+    return false; 
+	}
+
+	if (cpassword.value == "")                        
+    { 
+        window.alert("Please enter your confirm password"); 
+        password.focus(); 
+        return false; 
+    } 
+
+	if ((cpassword.value)!=(password.value)) {
+	window.alert("Enter Password and Confirm Password same");
+	cpassword.focus(); 
+    return false;
+	}
+
+	if (phone.value == "")                           
+    { 
+        window.alert("Please enter your telephone number."); 
+        phone.focus(); 
+        return false; 
+    } 
+
+    if(reg.test(phone.value) == false){
+	alert(" Telephone Number must be of 10 digits");
+	phone.focus();
+	return false;
+    }
+    if (what.selectedIndex < 1)                  
+    { 
+        alert("Please enter your course."); 
+        what.focus(); 
+        return false; 
+    } 
+    alert("welcome,your registration confirm.");
+    return true; 
+}</script>
+</head>
+<body>
+    <center>
+<h1 style="text-align: center"> REGISTRATION FORM </h1>
+<form name="RegForm" onsubmit="return check()" method="post">
+
+<p>Name: <input type="text" name="Name"></p>
+<p> Address: <input type="text" name="Address"></p>
+<p>E-mail Address: <input type="text" name="EMail"></p>
+<p>Password: <input type="password" name="Password"></p>
+<p>Confirm Password: <input type="password" name="Confirm_Password"></p>
+<p>Telephone: <input type="text" name="Telephone"></p>
+
+<p>Select your course   
+<select type="text" value="" name="Subject">
+<option>Select your course</option>
+<option>CE</option>
+<option>CSE</option>
+<option>IT</option>
+<option>M.Tech</option>
+</select></p>
+<p><input type="submit" value="submit" name="Submit">
+</p>
+</form></center>
+</body>
+</html>

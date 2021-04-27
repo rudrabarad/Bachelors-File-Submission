@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Canvas
+	</title>
+</head>
+<body><center>
+	<canvas id="canvas" width=300 height=300 style="border: 4px solid black">
+		<img src="rb.png" id="img1">
+	</canvas>
+	<script>
+		function line()
+		{
+			var ln = document.getElementById('canvas');
+			var ctx = ln.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			ctx.strokeStyle="pink";
+			ctx.moveTo(0,0);
+			ctx.lineTo(300,300);
+			ctx.stroke();
+			ctx.closePath();
+		}
+
+		function chessboard()
+		{
+			var ch = document.getElementById('canvas');
+			var ctx = ch.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			ctx.strokeStyle="black";
+			for(var i=30 ; i<=300 ; i=i+30)
+			{
+				ctx.moveTo(i,0);
+				ctx.lineTo(i,300);
+				ctx.moveTo(0,i);
+				ctx.lineTo(300 	,i);
+				ctx.stroke();
+			}
+			ctx.closePath();
+		}
+
+		function tri()
+		{
+			var tr = document.getElementById("canvas");
+			var ctx = tr.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			ctx.moveTo(10,10);
+			ctx.lineTo(100,10);
+			ctx.lineTo(10,75);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill();
+			ctx.beginPath();
+			ctx.moveTo(107,80);
+			ctx.lineTo(107,15);
+			ctx.lineTo(15,80);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fill()
+		}
+
+		function house()
+		{
+			var hs = document.getElementById('canvas');
+      var ctx = hs.getContext('2d');
+			ctx.clearRect(0,0,300,300);
+			ctx.strokeStyle="black"
+      ctx.beginPath();
+      ctx.moveTo(150,10);
+      ctx.lineTo(10,100);
+      ctx.lineTo(290,100);
+      ctx.closePath();
+      ctx.rect(10,100,280,150);
+      ctx.fillStyle="Red"
+      ctx.fillRect(10,100,280,150);
+      ctx.clearRect(130,170,40,80);
+      ctx.stroke();
+		}
+
+		function smile()
+		{
+			var sm = document.getElementById('canvas');
+			var ctx = sm.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			ctx.arc(150,150,120,0,Math.PI*2,true);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fillStyle="Yellow";
+			ctx.fill();
+
+			<!-- eye -->
+			ctx.beginPath();
+			ctx.arc(85,115,15,0,Math.PI*2,true);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fillStyle="black";
+			ctx.fill();
+			ctx.beginPath();
+			ctx.arc(220,115,15,0,Math.PI*2,true);
+			ctx.closePath();
+			ctx.stroke();
+			ctx.fillStyle="black";
+			ctx.fill();
+
+			<!-- mouth -->
+			ctx.beginPath();
+			ctx.arc(150,180,60,0,Math.PI*1,false);
+			ctx.stroke();
+		}
+		function text() {
+			var canvas = document.getElementById('canvas');
+			var ctx = canvas.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			ctx.font = "30px Arial";
+			ctx.strokeStyle = "Green";
+			ctx.strokeText("18DCS007", 70, 150);
+			ctx.closePath();
+		}
+
+		function img() {
+			var c = document.getElementById("canvas");
+			var ctx = c.getContext("2d");
+			ctx.clearRect(0,0,300,300);
+			ctx.beginPath();
+			var img = document.getElementById("img1");
+			ctx.drawImage(img,20,80,260,130);
+			ctx.closePath();
+		}
+
+	</script>
+	<br><br>
+	<input type="button" onclick="line()" value="Line">
+	<input type="button" onclick="chessboard()" value="Chessboard">
+	<input type="button" onclick="tri()" value="Triangles">
+	<input type="button" onclick="house()" value="House">
+	<input type="button" onclick="smile()" value="Smile">
+	<input type="button" onclick="text()" value="Text">
+	<input type="button" onclick="img()" value="Image">
+</center>
+</body>
+</html>

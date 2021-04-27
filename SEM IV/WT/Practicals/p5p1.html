@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<style>
+  #t1{
+   text-align:center;
+}
+</style>
+	<script>
+			function add()
+			{
+				var a = Number( document.getElementById("t1").value );		
+				var b = Number( document.getElementById("t2").value );		
+				var add = a+b;
+				document.getElementById("t3").value = add;			
+			}
+			function sub()
+			{
+				var a = Number( document.getElementById("t1").value );		
+				var b = Number( document.getElementById("t2").value );		
+				var sub = a-b;
+				document.getElementById("t3").value = sub;			
+			}
+			function mul()
+			{
+				var a = Number( document.getElementById("t1").value );		
+				var b = Number( document.getElementById("t2").value );		
+				var mul = a*b;
+				document.getElementById("t3").value = mul;			
+			}
+			function div()
+			{
+				var a = Number( document.getElementById("t1").value );		
+				var b = Number( document.getElementById("t2").value );		
+				var div = a/b;
+				document.getElementById("t3").value = div;			
+			}
+			
+	</script>
+</head>
+
+<body>
+<table align="center" >
+<tr>
+<td align="center">
+<h1>CALCULATOR</h1>
+<form>
+ENTER NUMBER 1<br>
+<input type ="text" id="t1"><br><br>
+ENTER NUMVER 2<br>
+<input type ="text" id="t2" style="text-align:center"><br><br>
+<b>ANSWER</b><br>
+<input type ="text" id="t3" style="text-align:center;font-weight:bolder" disabled><br><br>
+<BR>
+
+<input type ="button" onclick ="add();" value="ADDITION">
+<input type ="button" onclick ="sub();" value="SUBTRACTION"><br><br>
+<input type ="button" onclick ="mul();" value="MULTIPICATION">
+<input type ="button" onclick ="div();" value="DIVISION"><br><br>
+<input type ="reset" value="RESET"><br><Br>
+18DCS007
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+p.test1 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.test3 {
+  width: 140px; 
+  border: 1px solid #000000;
+  word-break: keep-all;
+}
+
+p.test4 {
+  width: 140px; 
+  border: 1px solid #000000;
+  word-break: break-all;
+}
+
+body{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#test3{
+                width: 11em;
+                border: 1px solid black;
+                word-wrap: break-word;
+            }
+</style>
+</head>
+<body>
+
+<h3>text-overflow: clip:</h3>
+<p class="test1">My is ID 18DCS007. My Name Is Rudra Barad. I am Computer Scieence & Engineering student. I Study in Depstar-CHARUSAT</p>
+
+<h3>text-overflow: ellipsis:</h3>
+<p class="test2">My is ID 18DCS007. My Name Is Rudra Barad. I am Computer Scieence & Engineering student. I Study in Depstar-CHARUSAT</p>
+<h3>word-break: keep-all :</h3>
+<p class="test3">My is ID 18DCS007. My Name Is Rudra Barad. I am Computer Scieence & Engineering student. I Study in Depstar-CHARUSAT</p>
+<h3>word-break: break-all</h3>
+<p class="test4">My is ID 18DCS007. My Name Is Rudra Barad. I am Computer Scieence & Engineering student. I Study in Depstar-CHARUSAT</p>
+
+
+    <h3>Word Wrap property</h3>
+<p id="test3">My is ID 18DCS007. My Name Is Rudra Barad. I am Computer Scieence & Engineering student. I Study in Depstar-CHARUSAT</p>
+
+
+</body>
+</html>

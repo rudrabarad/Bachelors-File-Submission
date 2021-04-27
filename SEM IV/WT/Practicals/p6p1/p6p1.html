@@ -1,0 +1,93 @@
+<html>
+
+<head>
+	<title>
+		jQuery
+	</title>
+	<style type="text/css">
+	body
+	{
+		margin: 20px
+	}
+
+	#email,#pass,#l1,#l2,#pd{
+	display: none;
+	}
+
+	td{
+		width: 120px;
+	}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function()
+		{
+		$("#login").hover(function()
+		{
+			$("#email").fadeIn(3000);
+			$("#pass").fadeIn(3000);
+			$("#l1").fadeIn(3000);
+			$("#l2").fadeIn(3000);
+		} );
+		
+		$("#hide").click(function()
+		{
+			$("#label1").toggle();
+		});
+		
+		$("#slide").click(function()
+		{
+			$("#img").slideToggle(2000);
+		});
+		$("#stop").click(function()
+		{
+			$("#img").stop();
+		});
+		
+		}
+		);
+
+	</script>
+
+</head>
+
+<body>
+
+	<center><br>
+		<button id="slide" class="btn btn-info">Show / Hide Logo</button><br><br>
+		<button id="stop" class="btn btn-danger">Stop Slide</button><br>
+
+		<img id="img" src="rb.png" style="display: none;"><br>
+		<table id="t1">
+			<tr align ="left">
+				
+				<td>
+					
+     				<label id="l1">EMAIL ID : </label>
+     			</td>
+     			<td>
+					<input id="email" type="text"><br><br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label id="l2">PASSWORD : </label>
+				</td>
+				<td>
+					<input id="pass" type="text"><br><br>
+				</td>
+			</tr>
+			
+		</table>
+		<button id="login" class="btn btn-success">LOGIN</button><br>
+		<br>
+		<label id="label1">HINT<br>Hover over Login Button to Enter Email Id and Password</label> 
+		<br><br>
+		<button id="hide" class="btn btn-warning">Show / Hide Hint</button>
+	
+</center>
+</body>
+
+</html>
+

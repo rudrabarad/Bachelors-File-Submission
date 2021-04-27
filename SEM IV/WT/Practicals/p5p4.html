@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practical 4</title>
+	<style type="text/css">
+		td{
+			width: 100px;
+			height: 50px;
+		}
+        body{
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+	</style>
+</head>
+<body>
+    Default there are 2 Rows and 2 Columns<br><br>
+<table id="table" border="1">
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+</table><br><br>18DCS007<br><br>
+<button onclick="addrow()">Add Row</button>
+<button onclick="addcolumn()">Add column</button>
+<button onclick="delrow()">Delete Row</button>
+<button onclick="delcolumn()">Delete column</button>
+<script type="text/javascript">
+	function addrow()
+	{
+		var tab=document.getElementById("table");
+		var row=tab.insertRow(tab.rows.length);
+		for(var i=0;i<tab.rows[0].cells.length;i++)
+		{
+			row.insertCell(i);
+		}
+	}
+	function addcolumn()
+	{
+		var tab=document.getElementById("table");
+		for(var i=0;i<tab.rows.length;i++)
+		{
+			tab.rows[i].insertCell(tab.rows[i].cells.length);
+		}
+	}
+	function delrow()
+	{
+		var tab=document.getElementById("table");
+		tab.deleteRow(tab.rows.length-1);
+	}
+	function delcolumn() 
+	{
+		var tab=document.getElementById("table");
+		var len=tab.rows.length;
+		for (var i = 0; i < len; i++) 
+		{
+			tab.rows[i].deleteCell(tab.rows[0].cells.length - 1);
+		}
+	}
+</script>
+</body>
+</html>

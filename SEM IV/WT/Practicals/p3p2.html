@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<style type="text/css">
+		ul{
+			width: 100%;
+			height: 100%;
+			list-style: none;
+			margin:0;
+			padding: 0;
+			background:#c2c2c2;
+		}
+		ul li{
+			padding: 20px 20px;
+			display: block;
+			position: relative;
+			float: left;
+			background:#c2c2c2;
+		}
+		li ul{
+			width: 100%;
+			height: 100%;
+			display: none;
+		}
+		ul li a{
+			width: 100%;
+			height: 100%;
+			display: block;
+			padding-top: 20px;
+			text-decoration: none;
+			white-space: nowrap;
+			color: #fff;
+		}
+		ul li a:hover{
+			width: 100%;
+			height: 100%;
+			background: #2c3e50;
+		}
+		li:hover > ul{
+			display: block;
+			position: absolute;
+		}
+		li:hover li{
+			float: none;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>Institutes
+			<ul>
+				<li><a>DEPSTAR</a></li>
+				<li><a>CSPIT</a></li>
+				<li><a>RPCP</a></li>
+				<li><a>IIIM</a></li>
+				<li><a>RPCP</a></li>
+				<li><a>MTIN</a></li>
+				<li><a>ARIP</a></li>
+			</ul>
+		</li>
+		<li>
+			Courses
+			<ul>
+				<li><a>CSE</a></li>
+				<li><a>CE</a></li>
+				<li><a>IT</a></li>
+				<li><a>EE</a></li>
+				<li><a>EC</a></li>
+				<li><a>ME</a></li>
+				<li><a>CL</a></li>
+			</ul>
+		</li>
+		<li>
+			Labs
+			<ul>
+				<li><a>Mac Lab</a></li>
+				<li><a>AR-VR Lab</a></li>
+				<li><a>Latest PCs</a></li>
+			</ul>
+		</li>
+	</ul>
+</body>
+</html>

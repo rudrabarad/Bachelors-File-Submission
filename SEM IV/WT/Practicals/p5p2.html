@@ -1,0 +1,64 @@
+<html>
+
+<head>
+<style>
+  #t1{
+   text-align:center;
+
+  
+  
+}
+</style>
+	<script>
+			function info()
+			{
+				var fname = document.getElementById("t1").value ;		
+				var lname = document.getElementById("t2").value ;
+				var age = Number(document.getElementById("t3").value) ;
+				var email = document.getElementById("t4").value ;
+				var pswd = document.getElementById("t5").value ;
+				var phone = Number(document.getElementById("t6").value) ;
+
+				document.write("First Name of User is : <b>",fname,"</b><br>");
+				document.write("Last Name of User is : <b>",lname,"</b><br>");
+				document.write("Age of User is : <b>",age,"</b><br>");
+				document.write("Email Id of User is : <b>",email,"</b><br>");
+				document.write("Password of User is : <b>",pswd,"</b><br>");
+				document.write("Phone Number of User is : <b>",phone,"</b><br>");			
+			}
+			
+			
+	</script>
+</head>
+
+<body>
+<table align="center">
+<tr>
+<td align="center">
+<h1>FACEBOOK</h1>
+<I><h3>REGISTRATION</h3></I><BR>
+<form>
+ENTER <b>FIRSTNAME</b><br>
+<input type ="text" id="t1"><br><br>
+ENTER <b>LASTTNAME</b><br>
+<input type ="text" id="t2" style="text-align:center"><br><br>
+ENTER <b>AGE</b><br>
+<input type ="text" id="t3" style="text-align:center"><br><br>
+ENTER <b>EMAIL ID</b><br>
+<input type ="text" id="t4" style="text-align:center"><br><br>
+ENTER <b>PASSWORD</b><br>
+<input type ="text" id="t5" style="text-align:center"><br><br>
+ENTER <b>PHONE</b><br>
+<input type ="text" id="t6" style="text-align:center"><br><br>
+
+<BR>
+
+<input type ="button" onclick ="info();" value="SUBMIT">
+<br><br>
+<input type ="reset" value="RESET">
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>

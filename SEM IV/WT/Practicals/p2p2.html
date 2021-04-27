@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html form</title>
+	<style type="text/css">
+		fieldset{
+			border:2px solid black;
+		}
+	</style>
+</head>
+<body bgcolor="white">
+	<div>
+		<center>
+	<fieldset style="width: 280px;">
+		<legend>Sign Up Form</legend>
+	<form>
+	<table>
+		<tr>
+			<td>
+				<label>User ID</label>
+			</td>
+			<td>
+				<input type="text" name="username" id="username" pattern="[a-zA-Z0-9]{10}" title="Enter your name" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Password </label>
+			</td>
+			<td>
+				<input type="password" name="password" id="password" pattern="[a-zA-Z0-9]{10}" title="Enter your password" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Website</label>
+			</td>
+			<td>
+				<input type="url" name="link" id="link" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Email</label>
+			</td>
+			<td>
+				<input type="email" name="email" id="email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]{3}+\.[a-z]{2,3}" title="Enter your email id" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Phone number </label>
+			</td>
+			<td>
+				<input type="tel" pattern="[1-9]{3}-[0-9]{3}-[0-9]{4}" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Nationality</label>
+			</td>
+			<td>
+				<input type="text" list="d11" required></input>
+				<datalist id="d11">
+					<option>India</option>
+					<option>US</option>
+					<option>UK</option>
+				</datalist>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Date of Birth</label>
+			</td>
+			<td>
+				<input type="date" pattern="[0-9]{2}-[a-z]{3}-[0-9]{4}" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Color</label>
+			</td>
+			<td>
+				<input type="color" required></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Range</label>
+			</td>
+			<td>
+				<input type="range" name="range" min="0" max="50">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Meter</label>
+			</td>
+			<td>
+				<meter min="0" max="100" low="33" high="66"  value="32" optimum="100"></meter>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>File</label>
+			</td>
+			<td>
+				<input type="file" name="Choose"></input>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>Search </label>
+			</td>
+			<td>
+				<input type="search" name="Search"></input><input type="button" name="go" value="Go"></input>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2>
+				<input type="submit" name="submit" value="Submit"> 
+			</td>
+		</tr>
+	</table>
+	</form>
+</fieldset>
+</center>
+</body>
+</html>

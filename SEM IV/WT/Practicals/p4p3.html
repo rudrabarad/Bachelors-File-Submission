@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <title>Pract 3 CSS3.0</title>
+        <STYLE>
+            h1{
+                color:rgb(0, 0, 0);
+                text-align: center;
+                width: 100%;
+            }
+            h3{
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-style: italic;
+            }
+            .box{
+                height: 230px;
+                width: 230px;
+                background-color: rgb(221, 221, 221);
+                float: left;
+                margin: 20px;
+                text-align: center;
+                
+            }
+            .box1{
+                height: 250px;
+                width: 300px;
+                background-color: rgb(221, 221, 221);
+                float: left;
+                margin-left: 50px;
+                margin-bottom: 10px;
+            }
+            .box2{
+                height: 250px;
+                width: 200px;
+                background-color: rgb(255, 255, 255);
+                float: left;
+                margin-left: 50px;
+                margin-bottom: 10px;
+                border: 1px solid black;
+            }
+
+            #translate{
+                background-color:rgb(255, 255, 255);
+                transform: translate(20px,30px);
+                height: 90px;
+                width: 150px;
+
+            }
+            #rotate{
+                background-color: rgb(255, 255, 255);
+                transform: rotate(30deg);
+                height: 40px;
+                width: 150px;
+                margin:50px;
+
+            }
+            #scale{
+                width: 60px;
+                height: 50px;
+                background-color: rgb(255, 255, 255);
+                margin-top: 70px;
+                margin-left:100px;
+                transform: scale(3,2);
+                font-size: 10px;
+            }
+            #skew{
+                background-color: rgb(255, 255, 255);
+                height: 55px;
+                width: 150px;
+                margin: 40px;
+                transform: skew(20deg,15deg);
+            }
+            #matrix{
+                height: 50px;
+                width: 100px;
+                margin-left: 50px;
+                background-color: rgb(255, 255, 255);
+                transform: matrix(0.5,1.3,2.1,0.4,0.5,45.0);
+            }
+            #translate3d{
+                background-color:rgb(255, 255, 255);
+                margin: 40px;
+                text-align: center;
+                transform: translate3d(10px,10px,10px);
+                
+            }
+            #scale3d{
+                background-color:rgb(255, 255, 255);
+                margin: 40px;
+                text-align: center;
+                transform: scale3d(1.3,2,1.3);
+                
+            }
+            #rotate3d{
+                background-color:rgb(255, 255, 255);
+                margin: 40px;
+                text-align: center;
+                transform: rotate3d(2,-1,1,45deg);
+                height: 40px;
+            }
+        </STYLE>
+    </head>
+    <body>
+        <div id="maindiv">
+            <h1>CSS3.0 2D TRANSFORM</h1>
+            <div class="box translate">
+                <h3>TRANSLATE METHOD</h3>
+                <div id="translate">
+                    Using translate method to movw 20px,30px (x,y)
+                </div>
+            </div>
+            <div class="box rotate">
+                <h3>ROTATE METHOD</h3>
+                <div id="rotate"> 
+                    Using Rotate method to rotate 30 degree.
+                </div>
+            </div>
+            <div  class="box scale">
+                <h3>SCALE METHOD</h3>
+                <div id="scale">
+                    using scale method to sacale div to (3,2)
+                </div>
+            </div>
+            <div  class="box skew">
+                <h3>SKEW METHOD</h3>
+                <div id="skew">
+                    Using skew mwthod to bend 20deg,15deg
+                </div>
+            </div>
+            <div  class="box matrix">
+                <h3>MATRIX METHOD</h3>
+                <div id="matrix">
+                    Using matrix method.
+                </div>
+            </div>
+        </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="width: 100%;">
+                <h1>CSS3.0 3D TRANSFORM</h1>
+                <div class="box1">
+                    <h3>TRANSLATE 3D</h3>
+                    <div id="translate3d">
+                        this is translate 3d method
+                    </div>
+                </div>
+                <div class="box1">
+                    <h3>SCALE 3D</h3>
+                    <div id="scale3d">
+                        this is scale 3d method
+                    </div>
+                </div>
+                <div class="box1">
+                    <h3>ROATATE 3D</h3>
+                    <div id="rotate3d">
+                        this is rotate 3d method
+                    </div>
+                </div>
+                <div class="box2" align="center">
+                    <br><br><br><br>
+                    <h3>Rudra Barad</h3>
+                    <h3>18DCS007</h3>
+                </div>
+        </div>
+    </body>
+</html>
