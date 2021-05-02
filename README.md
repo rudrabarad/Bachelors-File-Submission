@@ -30,7 +30,7 @@ HS105.01A | LIBERAL ARTS - MEDIA AND GRAPHIC DESIGN
 ### Semester Result
 SGPA - **9.86** | November 2018
 ### Submissions
-![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20I)
 <br><br>
 
 ## SEM II
@@ -45,7 +45,7 @@ HS126.01 A | COMMUNICATION SKILLS - 1
 ### Semester Result
 SGPA - **9.81** | April 2019
 ### Submissions
-![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20II)
 <br><br>
 
 ## SEM III
@@ -62,7 +62,7 @@ HS122 A | VALUES AND ETHICS
 ### Semester Result
 SGPA - **9.39** | November 2019
 ### Submissions
-![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20III)
 <br><br>
 
 ## SEM IV
@@ -80,7 +80,7 @@ NR261.01 | LIFE STYLE DISEASES & MANAGEMENT
 ### Semester Result
 SGPA - **9.74** | April 2020
 ### Submissions
-![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20IV)
 <br><br>
 
 ## SEM V
@@ -98,7 +98,7 @@ HS131.02 A | COMMUNICATION AND SOFT SKILLS
 ### Semester Result
 SGPA - **10.0** | December 2020
 ### Submissions
-![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20V)
 <br><br>
 
 
