@@ -11,11 +11,11 @@ This readme also consists of all the details of all the semesters and the courss
 **Student Id -** 18DCS007 <br>
 
 # Semester Details
-- [SEM I]()
-- [SEM II]()
-- [SEM III]()
-- [SEM IV]()
-- [SEM V]()
+- [SEM I](https://github.com/rudrabarad/Depstar-File-Submission#sem-i)
+- [SEM II](https://github.com/rudrabarad/Depstar-File-Submission#sem-ii)
+- [SEM III](https://github.com/rudrabarad/Depstar-File-Submission#sem-iii)
+- [SEM IV](https://github.com/rudrabarad/Depstar-File-Submission#sem-iv)
+- [SEM V](https://github.com/rudrabarad/Depstar-File-Submission#sem-v)
 
 ## SEM I
 ### Course Details
