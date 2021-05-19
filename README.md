@@ -1,6 +1,6 @@
 # Bachelor's Degree Details
 
-This repository is collection of all the submissions done by **RUDRA BARAD | 18DCS007** throughout his Bchelor's Degree which consists of ``Practicals``, ``Assignemnts``, ``Pratical Files``, ``Notes``, ``External Practical Files`` and ``Exam Answersheets``.
+This repository is collection of all the submissions done by **RUDRA BARAD - 18DCS007** throughout his Bchelor's Degree which consists of ``Practicals``, ``Assignemnts``, ``Pratical Files``, ``Notes``, ``External Practical Files`` and ``Exam Answersheets``.
 
 This readme also consists of all the details of all the semesters and the coursses. 
 
