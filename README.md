@@ -21,6 +21,7 @@ This readme also consists of all the details of all the semesters and the courss
 - [SEM III](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iii)
 - [SEM IV](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iv)
 - [SEM V](https://github.com/rudrabarad/Bachelors-File-Submission#sem-v)
+- [SEM VI](https://github.com/rudrabarad/Bachelors-File-Submission#sem-vi)
 
 ## SEM I
 ### Course Details
@@ -107,4 +108,7 @@ SGPA - **10.0** | December 2020
 <br><br>
 
 ## SEM VI
+### Submissions
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20VI)
+<br><br>
 
