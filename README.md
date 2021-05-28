@@ -10,17 +10,17 @@ This readme also consists of all the details of all the semesters and the courss
 **Degree Duration -** 4 Years [2018-2022] <br>
 **Student Id -** 18DCS007 <br>
 
-> 📢 **PSA for those who also want to organize their stuff like this, I'd appreciate a proper credit by linking back to this repository :**
+> 📢 **PSA for those who also want to organize their stuff like this, I'd appreciate a proper credit by linking your repository back to this repository : :relieved:**
 > ```
-> Repo inspired by [Rudra Barad](https://github.com/rudrabarad/Depstar-File-Submission/)
+> Repo inspired by [Rudra Barad](https://github.com/rudrabarad/Bachelors-File-Submission)
 
 
 # Semester Details
-- [SEM I](https://github.com/rudrabarad/Depstar-File-Submission#sem-i)
-- [SEM II](https://github.com/rudrabarad/Depstar-File-Submission#sem-ii)
-- [SEM III](https://github.com/rudrabarad/Depstar-File-Submission#sem-iii)
-- [SEM IV](https://github.com/rudrabarad/Depstar-File-Submission#sem-iv)
-- [SEM V](https://github.com/rudrabarad/Depstar-File-Submission#sem-v)
+- [SEM I](https://github.com/rudrabarad/Bachelors-File-Submission#sem-i)
+- [SEM II](https://github.com/rudrabarad/Bachelors-File-Submission#sem-ii)
+- [SEM III](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iii)
+- [SEM IV](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iv)
+- [SEM V](https://github.com/rudrabarad/Bachelors-File-Submission#sem-v)
 
 ## SEM I
 ### Course Details
@@ -35,7 +35,7 @@ HS105.01A | LIBERAL ARTS - MEDIA AND GRAPHIC DESIGN
 ### Semester Grade Point Average
 SGPA - **9.86** | November 2018
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20I)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20I)
 <br><br>
 
 ## SEM II
@@ -50,7 +50,7 @@ HS126.01 A | COMMUNICATION SKILLS - 1
 ### Semester Grade Point Average
 SGPA - **9.81** | April 2019
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20II)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20II)
 <br><br>
 
 ## SEM III
@@ -67,7 +67,7 @@ HS122 A | VALUES AND ETHICS
 ### Semester Grade Point Average
 SGPA - **9.39** | November 2019
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20III)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20III)
 <br><br>
 
 ## SEM IV
@@ -85,7 +85,7 @@ NR261.01 | LIFE STYLE DISEASES & MANAGEMENT
 ### Semester Grade Point Average
 SGPA - **9.74** | April 2020
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20IV)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20IV)
 <br><br>
 
 ## SEM V
@@ -103,8 +103,8 @@ HS131.02 A | COMMUNICATION AND SOFT SKILLS
 ### Semester Grade Point Average
 SGPA - **10.0** | December 2020
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Depstar-File-Submission/tree/master/SEM%20V)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20V)
 <br><br>
 
-
+## SEM VI
 
