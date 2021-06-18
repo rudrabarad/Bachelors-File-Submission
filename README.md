@@ -21,6 +21,7 @@ This readme also consists of all the details of all the semesters and the courss
 - [SEM III](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iii)
 - [SEM IV](https://github.com/rudrabarad/Bachelors-File-Submission#sem-iv)
 - [SEM V](https://github.com/rudrabarad/Bachelors-File-Submission#sem-v)
+- [SEM VI](https://github.com/rudrabarad/Bachelors-File-Submission#sem-vi)
 
 ## SEM I
 ### Course Details
@@ -107,4 +108,18 @@ SGPA - **10.0** | December 2020
 <br><br>
 
 ## SEM VI
+### Course Details
+COURSE CODE | COURSE NAME
+------------| -------------
+CS373       | INTERNET OF THINGS
+CS344       | MACHINE LEARNING
+CS345       | CRYPTOGRAPHY AND NETWORK SECURITY
+CS346       | SOFTWARE ENGINEERING
+CE349       | THEORY OF COMPUTATION
+HS132.02 A  | CONTRIBUTORY PERSONALITY DEVELOPMENT
+### Semester Grade Point Average
+SGPA - **Yet to be received** | May 2021
+### Submissions
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20VI)
+<br><br>
 
