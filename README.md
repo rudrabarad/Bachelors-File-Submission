@@ -118,7 +118,7 @@ CS346       | SOFTWARE ENGINEERING
 CE349       | THEORY OF COMPUTATION
 HS132.02 A  | CONTRIBUTORY PERSONALITY DEVELOPMENT
 ### Semester Grade Point Average
-SGPA - **Yet to be received** | May 2021
+SGPA - **9.75** | May 2021
 ### Submissions
 [![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20VI)
 <br><br>
