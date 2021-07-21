@@ -9,6 +9,7 @@ This readme also consists of all the details of all the semesters and the courss
 **Institute Name -** [Devang Patel Institute of Advance Technology and Research](https://www.charusat.ac.in/depstar/) <br>
 **Degree Duration -** 4 Years [2018-2022] <br>
 **Student Id -** 18DCS007 <br>
+**CGPA -** 9.76 (as of 6th Sem) 
 
 > 📢 **PSA for those who also want to organize their stuff like this, I'd appreciate a proper credit by linking your repository back to this repository : :relieved:**
 > ```
@@ -36,7 +37,7 @@ HS105.01A | LIBERAL ARTS - MEDIA AND GRAPHIC DESIGN
 ### Semester Grade Point Average
 SGPA - **9.86** | November 2018
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20I)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=2596be)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20I)
 <br><br>
 
 ## SEM II
