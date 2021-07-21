@@ -37,7 +37,7 @@ HS105.01A | LIBERAL ARTS - MEDIA AND GRAPHIC DESIGN
 ### Semester Grade Point Average
 SGPA - **9.86** | November 2018
 ### Submissions
-[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=2596be)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20I)
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20I)
 <br><br>
 
 ## SEM II
