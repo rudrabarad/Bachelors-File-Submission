@@ -9,6 +9,7 @@ This readme also consists of all the details of all the semesters and the courss
 **Institute Name -** [Devang Patel Institute of Advance Technology and Research](https://www.charusat.ac.in/depstar/) <br>
 **Degree Duration -** 4 Years [2018-2022] <br>
 **Student Id -** 18DCS007 <br>
+**CGPA -** 9.76 (as of 6th Sem) 
 
 > 📢 **PSA for those who also want to organize their stuff like this, I'd appreciate a proper credit by linking your repository back to this repository : :relieved:**
 > ```
@@ -118,7 +119,7 @@ CS346       | SOFTWARE ENGINEERING
 CE349       | THEORY OF COMPUTATION
 HS132.02 A  | CONTRIBUTORY PERSONALITY DEVELOPMENT
 ### Semester Grade Point Average
-SGPA - **Yet to be received** | May 2021
+SGPA - **9.75** | May 2021
 ### Submissions
 [![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20VI)
 <br><br>
