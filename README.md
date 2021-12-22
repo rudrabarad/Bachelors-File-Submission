@@ -125,7 +125,7 @@ SGPA - **9.75** | May 2021
 [![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rudrabarad/Bachelors-File-Submission/tree/master/SEM%20VI)
 <br><br>
 
-## SEM VI
+## SEM VII
 ### Course Details
 COURSE CODE | COURSE NAME
 ------------| -------------
